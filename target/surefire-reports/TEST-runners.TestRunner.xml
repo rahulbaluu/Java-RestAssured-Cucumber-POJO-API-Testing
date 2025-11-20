@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="10.861" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/target/test-classes:/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/target/classes:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/rest-assured/5.5.5/rest-assured-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/rahulbalashanmugam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rahulbalashanmugam/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/rahulbalashanmugam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/rahulbalashanmugam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/json-path/5.5.5/json-path-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/rest-assured-common/5.5.5/rest-assured-common-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/xml-path/5.5.5/xml-path-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/poi/poi-ooxml/5.4.0/poi-ooxml-5.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/poi/poi/5.4.0/poi-5.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/rahulbalashanmugam/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/poi/poi-ooxml-lite/5.4.0/poi-ooxml-lite-5.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/xmlbeans/xmlbeans/5.3.0/xmlbeans-5.3.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/rahulbalashanmugam/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/rahulbalashanmugam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rahulbalashanmugam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rahulbalashanmugam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/target/surefire/surefirebooter-20251120005738429_3.jar /Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/target/surefire 2025-11-20T00-57-38_371-jvmRun1 surefire-20251120005738429_1tmp surefire_0-20251120005738429_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/target/test-classes:/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/target/classes:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/rest-assured/5.5.5/rest-assured-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/rahulbalashanmugam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/rahulbalashanmugam/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/rahulbalashanmugam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/rahulbalashanmugam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/json-path/5.5.5/json-path-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/rest-assured-common/5.5.5/rest-assured-common-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/io/rest-assured/xml-path/5.5.5/xml-path-5.5.5.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rahulbalashanmugam/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/poi/poi-ooxml/5.4.0/poi-ooxml-5.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/poi/poi/5.4.0/poi-5.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/rahulbalashanmugam/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/poi/poi-ooxml-lite/5.4.0/poi-ooxml-lite-5.4.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/xmlbeans/xmlbeans/5.3.0/xmlbeans-5.3.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/rahulbalashanmugam/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/rahulbalashanmugam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/rahulbalashanmugam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/rahulbalashanmugam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rahulbalashanmugam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rahulbalashanmugam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rahulbalashanmugam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/target/surefire/surefirebooter-20251120005738429_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="rahulbalashanmugam"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/rahulbalashanmugam/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/fq/g0kvv0p944xcqj4qh8xq70840000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rahulbalashanmugam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Get all brand list&quot;, &quot;Brand API&quot;](1)" classname="runners.TestRunner" time="1.695">
+    <system-out><![CDATA[
+Scenario: Get all brand list                # src/test/java/features/brand.feature:3
+  Given Send GET request to brand list      # stepDefinitions.BrandSteps.sendGETRequestToBrandList()
+Total products: 34
+
+ID:1
+Brand:Polo
+ID:2
+Brand:H&M
+ID:3
+Brand:Madame
+ID:4
+Brand:Madame
+ID:5
+Brand:Mast & Harbour
+ID:6
+Brand:H&M
+ID:7
+Brand:Madame
+ID:8
+Brand:Polo
+ID:11
+Brand:Babyhug
+ID:12
+Brand:Babyhug
+ID:13
+Brand:Allen Solly Junior
+ID:14
+Brand:Kookie Kids
+ID:15
+Brand:Babyhug
+ID:16
+Brand:Babyhug
+ID:18
+Brand:Kookie Kids
+ID:19
+Brand:Allen Solly Junior
+ID:20
+Brand:Kookie Kids
+ID:21
+Brand:Biba
+ID:22
+Brand:Biba
+ID:23
+Brand:Biba
+ID:24
+Brand:Allen Solly Junior
+ID:28
+Brand:H&M
+ID:29
+Brand:Polo
+ID:30
+Brand:Polo
+ID:31
+Brand:H&M
+ID:33
+Brand:Polo
+ID:35
+Brand:H&M
+ID:37
+Brand:Polo
+ID:38
+Brand:Madame
+ID:39
+Brand:Biba
+ID:40
+Brand:Biba
+ID:41
+Brand:Madame
+ID:42
+Brand:Mast & Harbour
+ID:43
+Brand:Mast & Harbour
+  When Should receive the list of all brand # stepDefinitions.BrandSteps.shouldReceiveTheListOfAllBrands()
+Status code is 200
+  Then The status code should 200           # stepDefinitions.BrandSteps.theStatusCodeShould()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Update the brand list&quot;, &quot;Brand API&quot;](2)" classname="runners.TestRunner" time="0.947">
+    <system-out><![CDATA[
+Scenario: Update the brand list                     # src/test/java/features/brand.feature:8
+  Given Send PUT request to brand list              # stepDefinitions.BrandSteps.sendPUTRequestToBrandList()
+Status code is 200
+  When Should receive the error message             # stepDefinitions.BrandSteps.shouldReceiveTheErrorMessage()
+Status message is This request method is not supported.
+  Then The status message for PUT brand is received # stepDefinitions.BrandSteps.theStatusMessageForPUTBrandIsReceived()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;POST to verify login with valid details&quot;, &quot;Login API&quot;](3)" classname="runners.TestRunner" time="0.701">
+    <system-out><![CDATA[
+Scenario Outline: POST to verify login with valid details                   # src/test/java/features/login.feature:9
+Response Body: {"responseCode": 200, "message": "User exists!"}
+  Given Send the post request with the "178@gmail.com" and "178" parameters # stepDefinitions.LoginSteps.sendThePostRequest(java.lang.String,java.lang.String)
+API Response Code200
+API Response MessageUser exists!
+  When Should receive this "User exists!" and 200                           # stepDefinitions.LoginSteps.shouldReceiveThis(java.lang.String,int)
+HTTP Status Code: 200
+  Then Verify the response code is 200                                      # stepDefinitions.LoginSteps.verifyTheResponseCodeIs200()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;POST without email to verify error&quot;, &quot;Login API&quot;](4)" classname="runners.TestRunner" time="0.75">
+    <system-out><![CDATA[
+Scenario Outline: POST without email to verify error                                                            # src/test/java/features/login.feature:17
+Response Body: {"responseCode": 400, "message": "Bad request, email or password parameter is missing in POST request."}
+  Given Send the post request with the "178" parameters                                                         # stepDefinitions.LoginSteps.sendThePostRequestWithTheParameters(java.lang.String)
+API Response Code 400
+API Response Message Bad request, email or password parameter is missing in POST request.
+  When Should receive this error "Bad request, email or password parameter is missing in POST request." and 400 # stepDefinitions.LoginSteps.shouldReceiveThisError(java.lang.String,int)
+HTTP Status Code: 200
+  Then Verify the response code is 200                                                                          # stepDefinitions.LoginSteps.verifyTheResponseCodeIs200()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;DELETE to verify login&quot;, &quot;Login API&quot;](5)" classname="runners.TestRunner" time="0.628">
+    <system-out><![CDATA[
+Scenario Outline: DELETE to verify login                                   # src/test/java/features/login.feature:25
+Response Body: {"responseCode": 405, "message": "This request method is not supported."}
+  Given Send the delete request to delete the user account                 # stepDefinitions.LoginSteps.sendTheDeleteTheUserAccount()
+API Response Code405
+API Response MessageThis request method is not supported.
+  When Should receive this "This request method is not supported." and 405 # stepDefinitions.LoginSteps.shouldReceiveThis(java.lang.String,int)
+HTTP Status Code: 200
+  Then Verify the response code is 200                                     # stepDefinitions.LoginSteps.verifyTheResponseCodeIs200()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;POST to verify login with valid details&quot;, &quot;Login API&quot;](6)" classname="runners.TestRunner" time="0.24">
+    <system-out><![CDATA[
+Scenario Outline: POST to verify login with valid details                   # src/test/java/features/login.feature:33
+Response Body: {"responseCode": 404, "message": "User not found!"}
+  Given Send the post request with the "179@gmail.com" and "179" parameters # stepDefinitions.LoginSteps.sendThePostRequest(java.lang.String,java.lang.String)
+API Response Code404
+API Response MessageUser not found!
+  When Should receive this "User not found!" and 404                        # stepDefinitions.LoginSteps.shouldReceiveThis(java.lang.String,int)
+HTTP Status Code: 200
+  Then Verify the response code is 200                                      # stepDefinitions.LoginSteps.verifyTheResponseCodeIs200()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get all products list&quot;, &quot;Product API&quot;](7)" classname="runners.TestRunner" time="0.79">
+    <system-out><![CDATA[
+Scenario: Get all products list                # src/test/java/features/products.feature:3
+  Given Send GET request to products list      # stepDefinitions.ProductSteps.sendGETRequestToProductsList()
+Total products: 34
+
+ID:1
+Name:Blue Top
+Price:Rs. 500
+Brand:Polo
+Category:Tops
+UserType:Women
+
+ID:2
+Name:Men Tshirt
+Price:Rs. 400
+Brand:H&M
+Category:Tshirts
+UserType:Men
+
+ID:3
+Name:Sleeveless Dress
+Price:Rs. 1000
+Brand:Madame
+Category:Dress
+UserType:Women
+
+ID:4
+Name:Stylish Dress
+Price:Rs. 1500
+Brand:Madame
+Category:Dress
+UserType:Women
+
+ID:5
+Name:Winter Top
+Price:Rs. 600
+Brand:Mast & Harbour
+Category:Tops
+UserType:Women
+
+ID:6
+Name:Summer White Top
+Price:Rs. 400
+Brand:H&M
+Category:Tops
+UserType:Women
+
+ID:7
+Name:Madame Top For Women
+Price:Rs. 1000
+Brand:Madame
+Category:Tops
+UserType:Women
+
+ID:8
+Name:Fancy Green Top
+Price:Rs. 700
+Brand:Polo
+Category:Tops
+UserType:Women
+
+ID:11
+Name:Sleeves Printed Top - White
+Price:Rs. 499
+Brand:Babyhug
+Category:Tops & Shirts
+UserType:Kids
+
+ID:12
+Name:Half Sleeves Top Schiffli Detailing - Pink
+Price:Rs. 359
+Brand:Babyhug
+Category:Tops & Shirts
+UserType:Kids
+
+ID:13
+Name:Frozen Tops For Kids
+Price:Rs. 278
+Brand:Allen Solly Junior
+Category:Tops & Shirts
+UserType:Kids
+
+ID:14
+Name:Full Sleeves Top Cherry - Pink
+Price:Rs. 679
+Brand:Kookie Kids
+Category:Tops & Shirts
+UserType:Kids
+
+ID:15
+Name:Printed Off Shoulder Top - White
+Price:Rs. 315
+Brand:Babyhug
+Category:Tops & Shirts
+UserType:Kids
+
+ID:16
+Name:Sleeves Top and Short - Blue & Pink
+Price:Rs. 478
+Brand:Babyhug
+Category:Dress
+UserType:Kids
+
+ID:18
+Name:Little Girls Mr. Panda Shirt
+Price:Rs. 1200
+Brand:Kookie Kids
+Category:Tops & Shirts
+UserType:Kids
+
+ID:19
+Name:Sleeveless Unicorn Patch Gown - Pink
+Price:Rs. 1050
+Brand:Allen Solly Junior
+Category:Dress
+UserType:Kids
+
+ID:20
+Name:Cotton Mull Embroidered Dress
+Price:Rs. 1190
+Brand:Kookie Kids
+Category:Dress
+UserType:Kids
+
+ID:21
+Name:Blue Cotton Indie Mickey Dress
+Price:Rs. 1530
+Brand:Biba
+Category:Dress
+UserType:Kids
+
+ID:22
+Name:Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Price:Rs. 1600
+Brand:Biba
+Category:Dress
+UserType:Kids
+
+ID:23
+Name:Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Price:Rs. 1100
+Brand:Biba
+Category:Dress
+UserType:Kids
+
+ID:24
+Name:Colour Blocked Shirt – Sky Blue
+Price:Rs. 849
+Brand:Allen Solly Junior
+Category:Tops & Shirts
+UserType:Kids
+
+ID:28
+Name:Pure Cotton V-Neck T-Shirt
+Price:Rs. 1299
+Brand:H&M
+Category:Tshirts
+UserType:Men
+
+ID:29
+Name:Green Side Placket Detail T-Shirt
+Price:Rs. 1000
+Brand:Polo
+Category:Tshirts
+UserType:Men
+
+ID:30
+Name:Premium Polo T-Shirts
+Price:Rs. 1500
+Brand:Polo
+Category:Tshirts
+UserType:Men
+
+ID:31
+Name:Pure Cotton Neon Green Tshirt
+Price:Rs. 850
+Brand:H&M
+Category:Tshirts
+UserType:Men
+
+ID:33
+Name:Soft Stretch Jeans
+Price:Rs. 799
+Brand:Polo
+Category:Jeans
+UserType:Men
+
+ID:35
+Name:Regular Fit Straight Jeans
+Price:Rs. 1200
+Brand:H&M
+Category:Jeans
+UserType:Men
+
+ID:37
+Name:Grunt Blue Slim Fit Jeans
+Price:Rs. 1400
+Brand:Polo
+Category:Jeans
+UserType:Men
+
+ID:38
+Name:Rose Pink Embroidered Maxi Dress
+Price:Rs. 2300
+Brand:Madame
+Category:Dress
+UserType:Women
+
+ID:39
+Name:Cotton Silk Hand Block Print Saree
+Price:Rs. 3000
+Brand:Biba
+Category:Saree
+UserType:Women
+
+ID:40
+Name:Rust Red Linen Saree
+Price:Rs. 3500
+Brand:Biba
+Category:Saree
+UserType:Women
+
+ID:41
+Name:Beautiful Peacock Blue Cotton Linen Saree
+Price:Rs. 5000
+Brand:Madame
+Category:Saree
+UserType:Women
+
+ID:42
+Name:Lace Top For Women
+Price:Rs. 1400
+Brand:Mast & Harbour
+Category:Tops
+UserType:Women
+
+ID:43
+Name:GRAPHIC DESIGN MEN T SHIRT - BLUE
+Price:Rs. 1389
+Brand:Mast & Harbour
+Category:Tshirts
+UserType:Men
+
+  When Should receive the list of all products # stepDefinitions.ProductSteps.shouldReceiveTheListOfAllProducts()
+Status code is 200
+  Then The status code should be 200           # stepDefinitions.ProductSteps.theStatusCodeShouldBe200()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;POST to all products list&quot;, &quot;Product API&quot;](8)" classname="runners.TestRunner" time="0.229">
+    <system-out><![CDATA[
+Scenario: POST to all products list    # src/test/java/features/products.feature:8
+  Given Send the POST to products list # stepDefinitions.ProductSteps.sendThePOSTToProductsList()
+Status code is 200
+  When The status code should be 200   # stepDefinitions.ProductSteps.theStatusCodeShouldBe200()
+Status message is This request method is not supported.
+  Then The status message we received  # stepDefinitions.ProductSteps.theStatusMessageWeReceived()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;POST to search product&quot;, &quot;Product API&quot;](9)" classname="runners.TestRunner" time="0.681">
+    <system-out><![CDATA[
+Scenario Outline: POST to search product                      # src/test/java/features/products.feature:19
+  Given Send the POST to Search product with keyword "tshirt" # stepDefinitions.ProductSteps.sendThePOSTToSearchProductWithKeyword(java.lang.String)
+Total products: 6
+
+ID:2
+Men Tshirt
+Rs. 400
+H&M
+ID:28
+Pure Cotton V-Neck T-Shirt
+Rs. 1299
+H&M
+ID:29
+Green Side Placket Detail T-Shirt
+Rs. 1000
+Polo
+ID:30
+Premium Polo T-Shirts
+Rs. 1500
+Polo
+ID:31
+Pure Cotton Neon Green Tshirt
+Rs. 850
+H&M
+ID:43
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Rs. 1389
+Mast & Harbour
+  When Should receive the list of searched products           # stepDefinitions.ProductSteps.shouldReceiveTheListOfSearchedProducts()
+Status code is 200
+  Then The status code should be 200                          # stepDefinitions.ProductSteps.theStatusCodeShouldBe200()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;POST to search product without search product&quot;, &quot;Product API&quot;](10)" classname="runners.TestRunner" time="0.712">
+    <system-out><![CDATA[
+Scenario: POST to search product without search product              # src/test/java/features/products.feature:21
+  Given Send the POST request without search parameter               # stepDefinitions.ProductSteps.sendThePOSTRequestWithoutSearchParameter()
+API responseCode: 400
+API error message:Bad request, search_product parameter is missing in POST request.
+  When Should receive the error message for missing search parameter # stepDefinitions.ProductSteps.shouldReceiveTheErrorMessageForMissingSearchParameter()
+Status code is 200
+  Then The status code should be 400                                 # stepDefinitions.ProductSteps.theStatusCodeShouldBe()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Post to Create/Register user Account&quot;, &quot;User Account&quot;](11)" classname="runners.TestRunner" time="0.897">
+    <failure message="Failed to create user expected [201] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Failed to create user expected [201] but found [400]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at stepDefinitions.UserAccountSteps.verifyUserIsCreatedSuccessfully(UserAccountSteps.java:81)
+	at ✽.Verify user is created successfully(file:///Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/src/test/java/features/userAccounts.feature:8)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Post to Create/Register user Account # src/test/java/features/userAccounts.feature:3
+2025-11-20T00:57:46.675435Z main ERROR Log4j API could not find a logging provider.
+  Given Read the user registration data from   # stepDefinitions.UserAccountSteps.readTheUserRegistrationDataFromSheetRow(io.cucumber.datatable.DataTable)
+    | Sheet_name          | rowNum |
+    | Registration_Detail | 1      |
+  When Send post request to create account     # stepDefinitions.UserAccountSteps.sendPostRequestToCreateAccount()
+Status message is Email already exists!
+  Then Verify user is created successfully     # stepDefinitions.UserAccountSteps.verifyUserIsCreatedSuccessfully()
+      java.lang.AssertionError: Failed to create user expected [201] but found [400]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at stepDefinitions.UserAccountSteps.verifyUserIsCreatedSuccessfully(UserAccountSteps.java:81)
+	at ✽.Verify user is created successfully(file:///Users/rahulbalashanmugam/eclipse-workspace/Learning/RESTAssured-API-Automation-Testing/src/test/java/features/userAccounts.feature:8)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Update the user account&quot;, &quot;User Account&quot;](12)" classname="runners.TestRunner" time="1.064">
+    <system-out><![CDATA[
+Scenario: Update the user account             # src/test/java/features/userAccounts.feature:10
+  Given Read the user credentials from        # stepDefinitions.UserAccountSteps.readTheUserCredentialsFrom(io.cucumber.datatable.DataTable)
+    | Sheet_name                  | rowNum |
+    | Updated_Registration_Detail | 2      |
+Updating account for: 203@gmail.com
+  When Send put request to update account     # stepDefinitions.UserAccountSteps.sendPutRequestToUpdateAccount()
+API responseCode = 200
+Status message is User updated!
+  Then Verify account is updated successfully # stepDefinitions.UserAccountSteps.verifyAccountIsUpdatedSuccessfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get user account detail by email&quot;, &quot;User Account&quot;](13)" classname="runners.TestRunner" time="0.348">
+    <system-out><![CDATA[
+Scenario: Get user account detail by email          # src/test/java/features/userAccounts.feature:17
+  Given Read the user credentials from              # stepDefinitions.UserAccountSteps.readTheUserCredentialsFrom(io.cucumber.datatable.DataTable)
+    | Sheet_name          | rowNum |
+    | Registration_Detail | 1      |
+Response status code: 200
+Response body: {"responseCode": 200, "user": {"id": 1139715, "name": "Rajini", "email": "203@gmail.com", "title": "Mr", "birth_day": "11", "birth_month": "April", "birth_year": "1999", "first_name": "Hello", "last_name": "howareyou", "company": "Kekaran Mekaran", "address1": "Dubai main road", "address2": "Dubai narrow street", "country": "UAE", "state": "Dubai", "city": "Dubai main", "zipcode": "1234567"}}
+  When Send GET request to get user detail          # stepDefinitions.UserAccountSteps.sendGETRequestToGetUserDetail()
+Status message is null
+  Then Verify user detail is retrieved successfully # stepDefinitions.UserAccountSteps.verifyUserDetailIsRetrievedSuccessfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete a registered user account&quot;, &quot;User Account&quot;](14)" classname="runners.TestRunner" time="0.455">
+    <system-out><![CDATA[
+Scenario: Delete a registered user account    # src/test/java/features/userAccounts.feature:25
+  Given Read the user credentials from        # stepDefinitions.UserAccountSteps.readTheUserCredentialsFrom(io.cucumber.datatable.DataTable)
+    | Sheet_name          | rowNum |
+    | Registration_Detail | 1      |
+  When Send delete request to delete account  # stepDefinitions.UserAccountSteps.sendDeleteRequestToDeleteAccount()
+API responseCode = 200
+Status message is Account deleted!
+  Then Verify account is deleted successfully # stepDefinitions.UserAccountSteps.verifyAccountIsDeletedSuccessfully()
+]]></system-out>
+  </testcase>
+</testsuite>
